@@ -6,8 +6,12 @@ radiPanel: RC2 (Edited) is an fork of the PHP / MySQL powered radiPanel system d
 == Included Products ==
 - radiPanel: Charts, developed by iCame (http://github.com/matthewgall/radipanel_charts)
 
+== Modifications ==
+- Today's Events, developed by iCame (http://www.clubhabboforum.net/showpost.php?p=3175532&postcount=6)
+
 == Bugfixes ==
 - Permission denied error when editing menu items, developed by chad. (http://www.clubhabboforum.net/showpost.php?p=3219191&postcount=2)
+- Sessions fix, fixing premature logout times and session destruction, developed by Scold. (http://www.clubhabboforum.net/showpost.php?p=3336747&postcount=13)
 
 == Licence ==
 radiPanel: RC2 (Edited) is licenced under a Creative Commons Attribution-NonCommercial-ShareAlike 2.0 UK: England & Wales Licence, terms of which can be viewed at http://creativecommons.org/licenses/by-nc-sa/2.0/uk/
