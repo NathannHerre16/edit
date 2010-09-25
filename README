@@ -7,6 +7,9 @@ radiPanel: RC2 (Edited) is an fork of the PHP / MySQL powered radiPanel system d
 The developer would like to thank the following people for their contributions to this code:
 - Josh for the core radiPanel code, the base of this product and our lord and master!
 
+== Included Products ==
+- radiPanel: Charts, developed by iCame (http://github.com/matthewgall/radipanel_charts)
+
 == Licence ==
 radiPanel: RC2 (Edited) is licenced under a Creative Commons Attribution-NonCommercial-ShareAlike 2.0 UK: England & Wales Licence, terms of which can be viewed at http://creativecommons.org/licenses/by-nc-sa/2.0/uk/
 
