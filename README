@@ -8,6 +8,7 @@ radiPanel: RC2 (Edited) is an fork of the PHP / MySQL powered radiPanel system d
 
 == Modifications ==
 - Today's Events, developed by iCame (http://www.clubhabboforum.net/showpost.php?p=3175532&postcount=6)
+- Clean Submitted Management Messages, developed by iCame (http://www.clubhabboforum.net/showpost.php?p=3426515&postcount=20)
 
 == Bugfixes ==
 - Permission denied error when editing menu items, developed by chad. (http://www.clubhabboforum.net/showpost.php?p=3219191&postcount=2)
