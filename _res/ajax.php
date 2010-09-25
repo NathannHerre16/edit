@@ -121,6 +121,20 @@
 		}
 		
 	}
+        elseif( $_POST['mode'] == "deleteAdvert" and $_POST['id'] ) {
+
+            $id = $core->clean( $_POST['id'] );
+
+		$query = $db->query( "SELECT * FROM adverts WHERE id = '{$id}'" );
+		$num   = $db->num( $query );
+
+		if( $num != 0 ) {
+
+			$db->query( "DELETE FROM adverts WHERE id = '{$id}'" );
+
+		}
+
+        }
 	elseif( $_POST['mode'] == "deleteNews" and $_POST['id'] ) {
 
 		$id = $core->clean( $_POST['id'] );

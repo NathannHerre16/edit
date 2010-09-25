@@ -245,6 +245,22 @@ var RadiClass = Class.create( {
 	
 	},
 
+        deleteAdvert: function( id ) {
+
+		elm = $( 'advert_' + id );
+
+		Effect.Pulsate( elm, {duration: 1, pulses: 2} );
+		Effect.Fade( elm, {delay: 1, duration: 0.5} );
+
+		new Ajax.Request( 'ajax', {
+
+							method: 'post',
+							parameters: {mode: 'deleteAdvert', id: id}
+
+		} );
+
+	},
+
 	requestToggle: function(id) {
 		for( i = 0; i < deleteRequests.length; i++ ) {
 		
