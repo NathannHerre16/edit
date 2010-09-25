@@ -48,6 +48,9 @@ form {
 .box .content {
 
 	padding: 0px 5px 5px 5px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
 
 }
 
