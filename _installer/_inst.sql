@@ -52,7 +52,9 @@ CREATE TABLE IF NOT EXISTS `usergroups` (`id` int(255) NOT NULL AUTO_INCREMENT,`
 
 CREATE TABLE IF NOT EXISTS `users` (`id` int(255) NOT NULL AUTO_INCREMENT,`username` varchar(255) NOT NULL,`password` varchar(255) NOT NULL,`email` varchar(255) NOT NULL,`habbo` varchar(255) NOT NULL,`displaygroup` varchar(255) NOT NULL,`usergroups` varchar(255) NOT NULL,PRIMARY KEY (`id`)) ENGINE=MyISAM  DEFAULT CHARSET=latin1;
 
-CREATE TABLE IF NOT EXISTS `adverts` (`id` int(255) NOT NULL auto_increment,`name` varchar(255) NOT NULL,`url` varchar(255) NOT NULL,`imgurl` varchar(255) NOT NULL,`impressions` int(255) NOT NULL default '0',`max_impressions` int(255) NOT NULL default '0',`active` int(1) NOT NULL default '0',PRIMARY KEY  (`id`)) ENGINE=MyISAM  DEFAULT CHARSET=latin1;
+
+
+CREATE TABLE IF NOT EXISTS `adverts` (`id` int(255) NOT NULL AUTO_INCREMENT,`name` varchar(255) NOT NULL,`url` varchar(255) NOT NULL,`imgurl` varchar(255) NOT NULL,`impressions` int(255) NOT NULL default '0',`max_impressions` int(255) NOT NULL default '0',`active` int(1) NOT NULL default '0',PRIMARY KEY  (`id`)) ENGINE=MyISAM  DEFAULT CHARSET=latin1;
 
 
 
@@ -69,4 +71,4 @@ INSERT INTO `usergroups` (`id`, `name`, `colour`, `weight`) VALUES (5, 'Administ
 
 INSERT INTO `menu` (id, text, url, resource, usergroup, protected, weight) VALUES (NULL, 'Advert manager', 'mgmt.advertMgmt', '_res/advertmgmt/advertMgmt.php', '5', '0', '0');
 INSERT INTO `menu` (id, text, url, resource, usergroup, protected, weight) VALUES (NULL, 'Add advert', 'mgmt.addAdvert', '_res/advertmgmt/addAdvert.php', '5', '0', '0');
-INSERT INTO `menu` (id, text, url, resource, usergroup, protected, weight) VALUES (NULL, 'UK Singles Chart', 'radio.viewChart', '_res/radio/chart.php', '2', '0', '0'),
+INSERT INTO `menu` (id, text, url, resource, usergroup, protected, weight) VALUES (NULL, 'UK Singles Chart', 'radio.viewChart', '_res/radio/chart.php', '2', '0', '0');
