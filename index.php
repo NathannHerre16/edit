@@ -120,26 +120,57 @@
 			</div>
 			
 			<div style="float: left; width: 590px; padding-left: 10px;">
-			
-				<?php
-					if( !in_array( $array3['usergroup'], $user->data['uGroupArray'] ) ) {
-						
-						echo "Permission denied.";
-					
-					}
-					elseif( !@include_once( $array3['resource'] ) ) {
-					
-						echo "Error has occurred looking for " . $array3['resource'];
-					
-					}
 
-				?>
+					<?php
+						if( !in_array( $array3['usergroup'], $user->data['uGroupArray'] ) ) {
+						
+							echo "Permission denied.";
+					
+						}
+						elseif( !@include_once( $array3['resource'] ) ) {
+					
+							echo "Error has occurred looking for " . $array3['resource'];
+						
+						}
+
+					?>
+
+			<div class="box"> 
+
+                    			<div class="square title"><strong>Online Users</strong></div> 
+
+                    			<?php 
+	
+					$query = $db->query( "SELECT DISTINCT user_id FROM sessions WHERE user_id != '0'" ); 
+    					$i = 1; 
+
+					while( $array = $db->assoc( $query ) ) { 
+
+						$queryU = $db->query( "SELECT * FROM users WHERE id = '{$array['user_id']}'" ); 
+						$arrayU = $db->assoc( $queryU ); 
+
+						$queryUG = $db->query( "SELECT * FROM usergroups WHERE id = '{$arrayU['displaygroup']}'" ); 
+						$arrayUG = $db->assoc( $queryUG ); 
+
+						echo "<span style=\"color: #{$arrayUG['colour']}; font-weight: bold;\">"; 
+						echo $arrayU['username']; 
+						echo "</span>"; 
+						echo ( $i == $db->num( $query ) ) ? '' : ', '; 
+
+						$i++; 
+
+					} 
+
+					?>
+
+			</div>
 			
 			</div>
 			
 			<br clear="all" />
 			
 		</div>
+
 			
 			<?php
 				
