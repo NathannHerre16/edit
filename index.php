@@ -134,6 +134,7 @@
 						}
 
 					?>
+			<?php if ( $_GET['url'] == "core.home" ) { ?>
 
 			<div class="box"> 
 
@@ -164,6 +165,8 @@
 					?>
 
 			</div>
+			
+			<?php } ?>
 			
 			</div>
 			
