@@ -21,7 +21,7 @@ radiPanel: RC2 (Edited) is an fork of the PHP / MySQL powered radiPanel system d
 ## Licence
 radiPanel: RC2 (Edited) is licenced under a Creative Commons Attribution-NonCommercial-ShareAlike 2.0 UK: England & Wales Licence, terms of which can be viewed at http://creativecommons.org/licenses/by-nc-sa/2.0/uk/
 
-## Installation ==
+## Installation
 To install, simply upload using FTP or a file transfer program of your choice, create a MySQL database and visit the _installer directory - it's all downhill from there!
 
 ## Things To Note
@@ -39,12 +39,12 @@ To install, simply upload using FTP or a file transfer program of your choice, c
 	ii) Your addon licence included additional terms (such as right of removal on request); or
 	iii) The licence your addon is released under is not compatible with the parent product licence.
 
-  If you are a developer and your addon has been missed, please send a PM to iCame on clubhabboforum.net or create an
-  issue over on the issue tracker at http://www.github.com/radipanel_edit/issues (requires registration) to find
+  If you are a developer and your addon has been missed, please create an
+  issue over on the issue tracker at https://bitbucket.org/radipanel/edit/issues (requires registration) to find
   out the reasons for it's non inclusion.
 
 ## Abuse
-Please be sure to read the terms of the licence for which this product is released. Failure to adhere to the terms of the licence will result in the immediate and automatic termination of this licence. Know of someone selling this software? Drop me an e-mail at radipanel-dmca@matthewgall.com
+Please be sure to read the terms of the licence for which this product is released. Failure to adhere to the terms of the licence will result in the immediate and automatic termination of this licence. Know of someone selling this software? Drop me an e-mail at radipanel-dmca@matthewgall.com or create an issue over on the issue tracker at https://bitbucket.org/radipanel/edit/issues
 
 Shoutout to **AaidenX** for being the first recipient of the "ripping off the code, removing all the credits and passing it off as his own work" award.
 
