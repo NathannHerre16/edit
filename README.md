@@ -45,4 +45,5 @@ Shoutout to [AaidenX](http://www.habbohutforum.com/member.php?31187-AaidenX) for
 
 ## Credits
 The developer would like to thank the following people for their contributions to this code:
+
 * Josh for the core radiPanel code, the base of this product and our lord and master!
