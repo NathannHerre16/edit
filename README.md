@@ -32,9 +32,9 @@ To install, simply upload using FTP or a file transfer program of your choice, c
   and therefore easy to integrate into your site. Should you need any assistance
   with these just contact Josh on ClubHabbo Forum.
 * To addon developers, if your addon isn't included it would probably be for one of the following reasons:
-   + Your addon release page doesn't mention a licence; or
-   + Your addon licence included additional terms (such as right of removal on request); or
-   + The licence your addon is released under is not compatible with the parent product licence.
+    + Your addon release page doesn't mention a licence; or
+    + Your addon licence included additional terms (such as right of removal on request); or
+    + The licence your addon is released under is not compatible with the parent product licence.
 
 If you are a developer and your addon has been missed, please create an issue over on the [issue tracker](https://bitbucket.org/radipanel/edit/issues) (requires registration) to find out the reasons for it's non inclusion.
 
