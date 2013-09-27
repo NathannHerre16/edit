@@ -43,6 +43,8 @@ Please be sure to read the terms of the licence for which this product is releas
 
 Shoutout to [AaidenX](http://www.habbohutforum.com/member.php?31187-AaidenX) for being the first recipient of the "ripping off the code, removing all the credits and passing it off as his own work" award.
 
+![You sell work that I release for free! Fuck me right?](http://i.imgur.com/avHmOXG.jpg)
+
 ## Credits
 The developer would like to thank the following people for their contributions to this code:
 
