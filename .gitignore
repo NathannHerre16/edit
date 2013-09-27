@@ -31,3 +31,14 @@ dwsync.xml
 intermediate
 publish
 .idea
+
+# Komodo
+*.komodoproject
+.komodotools
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Cloud9 IDE
+/.c9revisions
