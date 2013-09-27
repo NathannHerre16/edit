@@ -41,7 +41,7 @@ If you are a developer and your addon has been missed, please create an issue ov
 ## Abuse
 Please be sure to read the terms of the licence for which this product is released. Failure to adhere to the terms of the licence will result in the immediate and automatic termination of this licence. Know of someone selling this software? Drop me an e-mail at [radipanel-dmca@matthewgall.com](mailto:radipanel-dmca@matthewgall.com) or create an issue over on the [issue tracker](https://bitbucket.org/radipanel/edit/issues)
 
-Shoutout to **AaidenX** for being the first recipient of the "ripping off the code, removing all the credits and passing it off as his own work" award.
+Shoutout to [AaidenX](http://www.habbohutforum.com/member.php?31187-AaidenX) for being the first recipient of the "ripping off the code, removing all the credits and passing it off as his own work" award.
 
 ## Credits
 The developer would like to thank the following people for their contributions to this code:
