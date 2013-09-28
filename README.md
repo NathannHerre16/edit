@@ -51,6 +51,7 @@ Need help? I'd be more than happy to! You can use any of the following methods:
 * Create an issue over on the [issue tracker](https://bitbucket.org/radipanel/edit/issues) (no registration required) with all the necessary steps to replicate the issue, and the environment you are using; OR
 * You can head over to our IRC channel:
 	+ [#radipanel on irc.freenode.net](http://webchat.freenode.net/?randomnick=1&channels=%23radipanel)
+* You can send an encrypted message using BitMessage to BM-NAyQ2f2aVfySh5xpSs7zb6GaG5LZWcdb
 
 ## Credits
 The developer would like to thank the following people for their contributions to this code:
