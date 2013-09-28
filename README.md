@@ -50,7 +50,7 @@ Need help? I'd be more than happy to! You can use any of the following methods:
 
 * Create an issue over on the [issue tracker](https://bitbucket.org/radipanel/edit/issues) with all the necessary steps to replicate the issue, and the environment you are using; OR
 * You can head over to our IRC channel:
-	+ [#radipanel on irc.freenode.net](irc://irc.freenode.net:8001/radipanel) [web viewer](http://webchat.freenode.net/?randomnick=1&channels=%23radipanel)
+	+ [#radipanel on irc.freenode.net](irc://irc.freenode.net:8001/radipanel) [(web viewer)](http://webchat.freenode.net/?randomnick=1&channels=%23radipanel)
 
 ## Credits
 The developer would like to thank the following people for their contributions to this code:
