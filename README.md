@@ -36,7 +36,7 @@ To install, simply upload using FTP or a file transfer program of your choice, c
     + Your addon licence included additional terms (such as right of removal on request); or
     + The licence your addon is released under is not compatible with the parent product licence.
 
-If you are a developer and your addon has been missed, please create an issue over on the [issue tracker](https://bitbucket.org/radipanel/edit/issues) (requires registration) to find out the reasons for it's non inclusion.
+If you are a developer and your addon has been missed, please create an issue over on the [issue tracker](https://bitbucket.org/radipanel/edit/issues) (no registration required) to find out the reasons for it's non inclusion.
 
 ## Abuse
 Please be sure to read the terms of the licence for which this product is released. Failure to adhere to the terms of the licence will result in the immediate and automatic termination of this licence. Know of someone selling this software? Drop me an e-mail at [radipanel-dmca@matthewgall.com](mailto:radipanel-dmca@matthewgall.com) or create an issue over on the [issue tracker](https://bitbucket.org/radipanel/edit/issues)
@@ -48,7 +48,7 @@ Shoutout to [AaidenX](http://www.habbohutforum.com/member.php?31187-AaidenX) for
 ## Support
 Need help? I'd be more than happy to! You can use any of the following methods:
 
-* Create an issue over on the [issue tracker](https://bitbucket.org/radipanel/edit/issues) with all the necessary steps to replicate the issue, and the environment you are using; OR
+* Create an issue over on the [issue tracker](https://bitbucket.org/radipanel/edit/issues) (no registration required) with all the necessary steps to replicate the issue, and the environment you are using; OR
 * You can head over to our IRC channel:
 	+ [#radipanel on irc.freenode.net](http://webchat.freenode.net/?randomnick=1&channels=%23radipanel)
 
