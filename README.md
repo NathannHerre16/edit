@@ -55,8 +55,8 @@ Need help? I'd be more than happy to! You can use any of the following methods:
 
 ## Frequently Asked Questions (FAQ)
 
-### I'm trying to implement {insert feature} on my website and PHP outputs a warning "failed to open stream: No such file or directory"
-This is your issue. This error simply means that PHP was unable to find the file, at the location you specified in your include(), require() or require_once() stanza. Check the location of the file on your disk is correct, and that the file exists.
+### Q: I'm trying to implement {insert feature} on my website and PHP outputs a warning "failed to open stream: No such file or directory"
+A: This error simply means that PHP was unable to find the file, at the location you specified in your include(), require() or require_once() stanza. Check the location of the file on your disk is correct, and that the file exists.
 
 ## Credits
 The developer would like to thank the following people for their contributions to this code:
