@@ -3,6 +3,9 @@ Contributors: Matthew Gall (iCame), Josh (Josh)
 
 radiPanel: RC2 (Edited) is an fork of the PHP / MySQL powered radiPanel system developed by Josh under a [Creative Commons Attribution-NonCommercial-ShareAlike 2.0 UK: England & Wales Licence](http://creativecommons.org/licenses/by-nc-sa/2.0/uk/), that implements popular released additions pre-installed as well as bugfixes to the core code. 
 
+## IMPORTANT
+In it's current format, it is not advisable to use radiPanel in production as it is vulnerable to some new forms of XSS and uses an aging password hashing schema (md5 combined with a fixed salt). **Use at your own risk, you have been warned**
+
 ## Included Products
 * [radiPanel: Advert Manager, developed by iCame](https://bitbucket.org/radipanel/advertmanager)
 * [radiPanel: Charts, developed by iCame](https://bitbucket.org/radipanel/charts)
