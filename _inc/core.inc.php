@@ -56,20 +56,16 @@ class Core {
 		  */
     public function encrypt( $string ) {
 
-        global $vars;
-
-        //let's md5 that salt and the string.
-        $salt1  = md5( $params['core']['salt1'] );
-        $salt2  = md5( $params['core']['salt2'] );
-        $string = md5( $string );
-
-        //stick them together.
-        $string = $salt1 . $salt1 . $salt2 . $string . $salt2 . $salt1;
-
-        //sha1 then md5 them again.
-        $string = sha1( $string );
-        $string = md5( $string );
-
+        /**
+         * md5 is now a depreciated standard, so we're going to use bcrypt via the php function crypt() available in PHP > 5.3
+         * However, we have an issue in that not everyone is using it. So we're going to have to have a backup plan!
+         */
+        
+        // We'll include a compatibility library
+        require_once('bcrypt.inc.php');
+        // And use the new password_hash() function to encrypt using bcrypt with a 10 cost
+        $string = password_hash($string, PASSWORD_BCRYPT, array("cost" => 10));
+        // Then return it to the calling function
         return $string;
 
     }
